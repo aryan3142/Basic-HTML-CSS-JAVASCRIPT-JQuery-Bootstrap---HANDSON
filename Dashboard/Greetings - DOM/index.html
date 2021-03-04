@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <script type="text/javascript" src="script.ja"></script>
+        <style>
+            .container{
+                width: 400px;         
+            }
+            table{
+                text-align: left;    
+                border-spacing: 10px;
+                border-width: 10%;    
+                border-style: solid;
+            }
+            td{
+                border-style: ridge;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <h1>
+            Accurate Coaching Center
+        </h1>
+        <form>
+            <table>
+                <tr>
+                    <td><label for="name">Student Name</label></td>
+                    <td><input type="text" name="name" id="sname" required=""></td>
+                </tr>
+                <tr>
+                    <td><label for="course">Course</label></td>
+                    <td>
+                        <select id="course" required>
+                            <option value="Python">Python</option>
+                            <option value="Java">Java</option>
+                            <option value="Oracle">Oracle</option>
+                        </select>
+                    </td>
+                </tr>
+            </table> <br>
+            <input type="button" onclick="display();" value="Register" id="submit">
+        </form>
+        </div>
+        <div id="greet">
+
+        </div>
+        <script>
+            function display(){
+            let x = document.getElementById("sname").value;
+            let y = document.getElementById("course").value;
+            if(x === ""){
+                document.getElementById("greet").innerHTML = "Name cannot be empty";
+                }
+            else{
+                document.getElementById("greet").innerHTML = "Hi, " + x + "." + " You have successfully registered for the " + y + " course";
+                }
+          
+            };
+        </script>
+    </body>
+</html>
