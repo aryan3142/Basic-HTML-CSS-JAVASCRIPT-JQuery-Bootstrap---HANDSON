@@ -11,3 +11,5 @@
 9. [Bootstrap Feedback Form](https://github.com/ryan3142/HTML-CSS-JAVASCRIPT---HANDSON/tree/main/Dashboard/Bootstrap%20Feedback%20Form)
 10. [Bootstrap Navbar](https://github.com/ryan3142/HTML-CSS-JAVASCRIPT---HANDSON/tree/main/Dashboard/Bootstrap%20Navigation%20Bar)
 11. [Moving Eyes](https://github.com/ryan3142/Basic-HTML-CSS-JAVASCRIPT-JQuery-Bootstrap---HANDSON/tree/main/Dashboard/MovingEyes)
+12. [Bootstrap Page Layout](https://github.com/ryan3142/Basic-HTML-CSS-JAVASCRIPT-JQuery-Bootstrap---HANDSON/tree/main/Dashboard/Bootstrap%20Page%20Layout)
+13. [Bootstrap Responsive webPage](https://github.com/ryan3142/Basic-HTML-CSS-JAVASCRIPT-JQuery-Bootstrap---HANDSON/tree/main/Dashboard/Bootstrap%20Responsive%20WebPage)
